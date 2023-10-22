@@ -1,0 +1,52 @@
+.header {
+    background-color: $pink;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 7%;
+}
+
+.header_search {
+    width: 80%;
+    font-size: x-large;
+    border: none;
+    margin: 0 10px;
+}
+
+.header_cart {
+    height: 35px;
+    cursor: pointer;    
+    filter: invert(1);
+}
+.header_fave {
+    @extend .header_cart;
+    height: 23px;
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: stretch;
+}
+
+.navbar_item {
+    text-decoration: none;
+    color: white;
+    background-color: $pink;
+    flex-grow: 1;
+    text-align: center;
+    font-size: x-large;
+
+    &:hover {
+        background-color: $light-pink;
+        color: $pink;
+    }
+}
+
+.navbar_item-clicked {
+    @extend .navbar_item;
+    background-color: white;
+    color: $pink;
+    font-weight: bold;
+}
+

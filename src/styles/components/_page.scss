@@ -1,0 +1,41 @@
+.page {
+    margin: 30px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-around;
+}
+
+.product-card-list {
+    display: flex;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.product-card-grid {
+    @extend .product-card-list;
+    padding-right: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.page-image {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.page-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.top-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

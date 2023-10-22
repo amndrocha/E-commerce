@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+button {
+    border: none;
+    color: white;
+    font-size: $font-size-medium;
+    white-space: nowrap;
+    text-decoration: none;
+    border-radius: 1rem;
+    background-color: $pink;
+    cursor: pointer;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+.button-lighter {
+    @extend button;
+    color: $pink;
+    outline: 1px solid $pink;
+    background-color: $light-pink;
+}
+
+.button-lighter-small {
+    @extend button;
+    color: $pink;
+    outline: 1px solid $pink;
+    background-color: $light-pink;
+    font-size: $font-size-small;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+select, img {
+    margin: 0;
+}
+
+

@@ -1,0 +1,26 @@
+.carrinho {    
+    margin: 30px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+    background-color: $light-pink;
+    border-radius: 30px;
+}
+
+.text-icon {
+    height: 0.8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.modal-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
