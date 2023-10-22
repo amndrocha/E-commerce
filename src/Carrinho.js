@@ -73,7 +73,7 @@ export const PageCarrinho = () => {
                                 <label className="modal-label">Número:<input value={address.numero} onChange={(e) => setAddress({...address, numero: e.target.value})} style={{marginLeft: "20px"}} type="text" /></label>
                                 <label className="modal-label">Bairro:<input value={address.bairro} onChange={(e) => setAddress({...address, bairro: e.target.value})} type="text" /></label>
                                 <label className="modal-label">Cidade:<input value={address.cidade} onChange={(e) => setAddress({...address, cidade: e.target.value})} type="text" /></label>
-                                <label className="modal-label">estado:<input value={address.estado} onChange={(e) => setAddress({...address, estado: e.target.value})} type="text" /></label>
+                                <label className="modal-label">Estado:<input value={address.estado} onChange={(e) => setAddress({...address, estado: e.target.value})} type="text" /></label>
                                 <div style={{display: "flex", flexDirection: "row", justifyContent: "space-around"}}>
                                     <button className="button-lighter" onClick={cancel}>Cancelar</button>
                                     <button onClick={send}>Enviar</button>
